@@ -24,3 +24,8 @@ Route::get('/home', function () {
 Route::get('/contact', function () {
     return "<h1>Olá Mundo/Contato:D</h1>";
 });
+
+
+Route::get('/lesson', function () {
+    return "<h1>Olá Mundo/Contato:D</h1>";
+});
