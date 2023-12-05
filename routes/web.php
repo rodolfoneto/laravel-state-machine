@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return "<h1>Olá Mundo</h1>";
 });
+
+Route::get('/contact', function () {
+    return "<h1>Olá Mundo/Contato:D</h1>";
+});
