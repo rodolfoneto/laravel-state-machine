@@ -29,3 +29,7 @@ Route::get('/contact', function () {
 Route::get('/lesson', function () {
     return "<h1>Olá Mundo/Contato:D</h1>";
 });
+
+Route::get('/lesson-101', function () {
+    return "<h1>Olá Mundo/Contato:D</h1>";
+});
